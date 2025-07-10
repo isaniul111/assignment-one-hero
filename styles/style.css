@@ -171,5 +171,36 @@
 .reviewer-image{
  border-radius: 50%;
 }
+/* ready-focus section tyle begains hare  */
+.parent-ready-focus{
+  width: 1140px;
+  height: 680px;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 14px;
+  display: block;
+  background-color:#FFFFFF;
+}
+.focus-title{
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 70px;
+  margin: 0;
+}
+.focus-desc{
+  color: rgba(0, 0, 0, 0.5);
+  padding-top:0px;
+}
+.focus-button{
+  width: 195px;
+  margin-bottom:20px;
+}
+.focus-img{
+  border-radius: 48px;
+  margin-bottom: 71px;
+}
 
 
