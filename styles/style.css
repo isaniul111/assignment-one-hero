@@ -24,6 +24,7 @@
   font-size: 42px;
   font-weight: bold;
 }
+
 /* header work stat hare  */
 .header{
   width: 1440px;
@@ -132,4 +133,43 @@
   color: rgba(0, 0, 0, 0.5);
   margin-top: 10px;
 }
+/* revier section style begains hare  */
+.parent-review{
+  width: 1140px;
+  height: 342px;
+  margin:0 auto;
+  margin: 140px 150px;
+}
+.review-title{
+  font-size: 42px;
+  font-weight: bold;
+  color: rgba(37, 36, 50, 1);
+  text-align: center;
+
+}
+.main-review{
+  display: flex;
+  gap: 20px;
+  
+}
+.review-rating{
+  width: 366px;
+  height: 243px;
+  background-color: #F2EDED;
+  border-radius: 14px;
+  padding: 0px 24px;
+  }
+.reviewer-desc{
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.reviewer-name,.review-date{
+  color:rgba(117, 117, 117, 1);
+  margin: 6px;
+}
+.reviewer-image{
+ border-radius: 50%;
+}
+
 
