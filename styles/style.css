@@ -19,7 +19,11 @@
   white-space: nowrap;
   border: none;
 }
-
+.title-content{
+  color: #252432;
+  font-size: 42px;
+  font-weight: bold;
+}
 /* header work stat hare  */
 .header{
   width: 1440px;
@@ -36,6 +40,7 @@
   margin: 0px 150px;
   padding-top: 51.5px;
   gap: 909px;
+  align-items: center;
 }
 .nav-logo{
   color: #4E47FF;
@@ -43,12 +48,41 @@
 }
 
 .banner{
-  margin: 110px 267px 200px;
-  font-size: 65px ;
+  margin: 100px 267px 200px;
+  font-size: 65px;
   font-weight: bold;
   text-align: center;
+}
+.banner-title{
+  margin-bottom: 0px;
 }
 .banner-button{
   margin-top:37px;
   width: 174px;
+}
+/* action section style start hare */
+.action-sec{
+  margin: 116px 159px 116px 144px;
+}
+.action-parent{
+  display: flex;
+  gap: 220px;
+}
+.action-image{
+  width: 403px;
+  height: 328px;
+  border-radius: 48px;
+  object-fit: cover;
+  object-position:left;
+}
+.avtion-content{
+  margin-top: 62.5px;
+  margin-bottom: 62.5px;
+}
+.action-desc{
+  width: 350px;
+  color: rgba(37, 36, 50, 0.5);
+}
+.action-button{
+  width: 229px;
 }
