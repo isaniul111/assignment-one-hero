@@ -86,3 +86,50 @@
 .action-button{
   width: 229px;
 }
+/* protective-user section style starts hare  */
+.protective-parent{
+  text-align: center;
+  width: 1140px;
+  height: 306px;
+  margin: 0 auto;
+  background-color:rgba(78, 71, 255, 0.1);
+  border-radius: 24px;
+}
+.pro-contant{
+   /* padding: 50px 142px; */
+   width: 856px;
+   height: 206px;
+   margin: 0 auto;
+}
+.pro-title{
+  font-size: 38px;
+  font-weight: bold;
+  color: #252432;
+  text-align: center;
+  padding: 50px 80px 0px 80px ;
+}
+
+.pro-part1 {
+  display: flex;
+  justify-content: center;
+  gap: 159px;
+  flex-wrap: wrap;
+}
+
+.user-content {
+  text-align: center;
+}
+
+.user-count {
+  font-size: 80px;
+  font-weight: bold;
+  color: rgba(78, 71, 255, 1);
+  margin: 0;
+}
+
+.count-desc {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+}
+
