@@ -3,6 +3,7 @@
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  background-color: rgb(245, 248, 255);
 }
 /* shared styles  */
 
@@ -155,7 +156,7 @@
 .review-rating{
   width: 366px;
   height: 243px;
-  background-color: #F2EDED;
+  background-color: #ffffff;
   border-radius: 14px;
   padding: 0px 24px;
   }
@@ -209,18 +210,19 @@
   margin: 0 auto;
   display: flex;
   justify-content: center;
+  gap:115px;
 }
 .title-desc{
   color: #000000;
   font-size: 97px;
   font-weight: bold;
-  padding: 100px 80px 200px 0px;
+  padding: 129px 0px;
 }
 .newsletter-form{
   width: 497px;
   height: 490px;
   justify-content: center;
-  padding: 71px 0px 71px 115px;
+  padding: 71px 0px 71px;
 }
 .message,.name,.textarea{
   font-size: 18px;
@@ -230,12 +232,14 @@
   width: 497px;
   height: 70px;
   border-radius: 10px;
+  border: none;
 }
 .news-textarea{
   width: 497px;
   height: 135px;
   border-radius: 10px;
   resize: none;
+  border: none;
 }
 .get-touch-b{
   width: 497px;
@@ -244,5 +248,53 @@
 }
 .email,.text-name,.news-textarea::placeholder{
  font-size: 20px;
+}
+.form-parent label,input,textarea {
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+/* footer section style begains hare */
+.footer {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-parent {
+  width: 531px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px; 
+  text-align: center;
+}
+.footer-logo {
+  font-size: 100px;
+  color: rgba(78, 71, 255, 1);
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.footer-desc {
+  font-size: 15px;
+  color: #8987a1;
+  line-height: 1.6;
+  gap: 10px;
+}
+.bar-parent {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  color: #8987a1;
+}
+.bar-parent h3 {
+  font-weight: normal;
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.bar-parent h3:hover {
+  color: rgba(78, 71, 255, 1);
 }
 
